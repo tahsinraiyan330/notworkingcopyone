@@ -1,0 +1,14 @@
+import React from 'react';
+
+export const LogoIcon: React.FC<{ className?: string }> = ({ className }) => (
+    <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 100 100" 
+        fill="currentColor" 
+        className={className}
+        aria-label="Aoporupa Logo"
+        role="img"
+    >
+        <path d="M50 8 L54 8 L54 18 L46 18 L46 8 L50 8 Z M25 92 L75 92 L75 82 L25 82 L25 92 Z M35 78 L65 78 L65 22 L35 22 L35 78 Z M46 70 L46 30 L54 30 L54 70 L46 70 Z" />
+    </svg>
+);
